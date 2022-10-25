@@ -18,7 +18,7 @@ export PATH="$PATH:/flutter/bin"
 # or the whole system hangs after starting emulator
 # just change driver settings to NVIDIA and try again
 
-# Show git branch name
+# Show git branch name in terminal
 force_color_prompt=yes
 color_prompt=yes
 parse_git_branch() {
