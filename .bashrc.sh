@@ -14,6 +14,10 @@ git push http://example.com/repo.git
 # exporting flutter patch
 export PATH="$PATH:/flutter/bin"
 
+# If emulator in android studio got stuck 
+# or the whole system hangs after starting emulator
+# just change driver settings to NVIDIA and try again
+
 # Show git branch name
 force_color_prompt=yes
 color_prompt=yes
@@ -26,6 +30,5 @@ else
  PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
 fi
 unset color_prompt force_color_prompt
-
 
 
